@@ -1,0 +1,19 @@
+{
+    "namespace": "com.reactivestax.avro",
+    "type": "record",
+    "name": "OrderEvents",
+    "fields": [
+        {
+            "name": "orderId",
+            "type": "long"
+        },
+        {
+            "name": "orderDate",
+            "type": "long"
+        },
+        {
+            "name": "orderAmt",
+            "type": "double"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+server:
+  port: 0
+
+logging:
+  level:
+    ROOT: ERROR
+    com.reactivestax: DEBUG
+    org.springframework: ERROR
+    org.springframework.kafka: DEBUG
+    io.confluent: DEBUG
+pattern:
+  console: "%d %-5level %logger : %msg%n"
+
+kafka:
+  topic: test
+  publisher:
+    buffer-memory: 33554432
+    linger-time-in-ms: 5
+    publish-batch-size: 16384
+    retry-count: 0
+    bootstrap-servers: "localhost:9092"
+    schema-registry: http://localhost:8081
