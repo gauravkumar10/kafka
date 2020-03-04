@@ -1,7 +1,6 @@
 package com.reactivestax;
 
 
-import com.reactivestax.avro.OrderEvents;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.kafka.annotation.KafkaListener;

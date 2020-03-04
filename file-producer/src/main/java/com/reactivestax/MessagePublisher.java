@@ -1,6 +1,6 @@
 package com.reactivestax;
 
-import com.reactivestax.avro.OrderEvents;
+import com.reactivestax.avro.PersonalDetails;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -16,8 +16,8 @@ public class MessagePublisher {
     @Autowired
     private KafkaTemplate kafkaTemplate;
 
-    public void send(OrderEvents orderEvent) {
-        log.info("sending Order Id Event {}", orderEvent.getOrderId());
+    public void send(PersonalDetails orderEvent) {
+        log.info("sending Order Id Event {}",.getOrderId());
         kafkaTemplate.send(topic, orderEvent.getOrderId(), orderEvent);
     }
 }

@@ -1,0 +1,100 @@
+{
+    "namespace": "com.reactivestax.avro",
+    "type": "record",
+    "name": "PersonalDetails",
+    "fields": [
+        {
+            "name": "srfNumber",
+            "type": "long"
+        },
+        {
+            "name": "orgName",
+            "type": "string"
+        },
+        {
+            "name": "orgNameExt",
+            "type": "string"
+        },
+        {
+            "name": "telephone1",
+            "type": "long"
+        },
+        {
+            "name": "telephone2",
+            "type": "long"
+        },
+        {
+            "name": "dateOfBirth",
+            "type": "long"
+        },
+        {
+            "name": "homeBranch",
+            "type": "string"
+        },
+        {
+            "name": "nationwideIndicator",
+            "type": "string"
+        },
+        {
+            "name": "addressLine1",
+            "type": "string"
+        },
+        {
+            "name": "addressLine2",
+            "type": "string"
+        },
+        {
+            "name": "postalCode",
+            "type": "string"
+        },
+        {
+            "name": "city",
+            "type": "string"
+        },
+        {
+            "name": "province",
+            "type": "string"
+        },
+        {
+            "name": "countryIsoCode",
+            "type": "string"
+        },
+        {
+            "name": "processingCentreCode",
+            "type": "string"
+        },
+        {
+            "name": "snowbirdIndicator",
+            "type": "string"
+        },
+        {
+            "name": "clientSinceDate",
+            "type": "long"
+        },
+        {
+            "name": "clientCommunicationLanguage",
+            "type": "string"
+        },
+        {
+            "name": "nonSurvivorInd",
+            "type": "string"
+        },
+        {
+            "name": "timestamp",
+            "type": "long"
+        },
+        {
+            "name": "change_op",
+            "type": "string"
+        },
+        {
+            "name": "dateEstablished",
+            "type": "long"
+        }
+    ]
+}
+
+
+
+
+
